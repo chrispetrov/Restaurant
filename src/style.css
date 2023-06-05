@@ -1,3 +1,26 @@
+@font-face {
+    font-family: 'HeaderFont';
+    src: url(./CaptoonES-Demo.woff2);
+    font-weight: 700;
+}
+
 .whitetext{
     color: rgb(235, 228, 203);
+}
+main{
+    margin: auto;
+    margin-top: 20%;
+    width: 30%;
+    text-indent: 2px;
+    word-spacing: 5px;
+    font-size: larger;
+    text-align: center;
+    border: 2px dashed whitesmoke;
+    padding: 8px;
+}
+header{
+    margin: 24px;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'HeaderFont'
 }

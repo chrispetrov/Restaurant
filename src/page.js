@@ -4,7 +4,7 @@ export default function createPage(){
     const basePage=document.createElement('div');
 
     let head=document.createElement('header');
-    head.innerText="Peppino's Pizza";
+    head.innerText="Peppinos Pizza";
     head.classList.add('whitetext')
 
     let main=document.createElement('main');

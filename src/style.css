@@ -4,6 +4,9 @@
     font-weight: 700;
 }
 
+body{
+    background-size: cover;
+}
 .whitetext{
     color: rgb(235, 228, 203);
 }
@@ -23,4 +26,44 @@ header{
     font-size: 48px;
     text-align: center;
     font-family: 'HeaderFont'
+}
+.buttons{
+    font-size: 48px;
+    font-family: 'HeaderFont';
+}
+.buttons:hover{
+    color: brown;
+}
+.menu{
+    width: 300px;
+    position: relative;
+    top: 120px;
+    left: 350px; 
+    transform:scaleY(1.7); 
+}
+.info{
+    width: 200px;
+    position: relative;
+    top: 40px;
+    left: 991px;
+    font-size: 44px;
+    transform:scaleY(1.2); 
+}
+.escape{
+    width: 300px;
+    position: relative;
+    top: 260px;
+    left: 1421px;
+    font-size: 54px;
+    transform:scaleY(2); 
+}
+#dashed{
+    text-decoration: line-through;
+}
+ul{
+    font-size: larger;
+}
+.menu-items{
+    width:20%;
+    font-family: 'HeaderFont';
 }

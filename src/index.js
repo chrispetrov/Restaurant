@@ -2,7 +2,7 @@ import createPage from './page.js';
 import './style.css';
 import createMenu from './menu.js';
 import createInfo from './info.js';
-import Icon from '../src/jumpscare.jpg';
+import PizzaScare from './images/jumpscare.jpg'
 
 
 let head=document.createElement('header');
@@ -32,9 +32,9 @@ divContent.appendChild(button3);
 divContent.appendChild(first);
 //
 const myIcon = new Image();
-myIcon.src = Icon;
+  myIcon.src = PizzaScare;
 
-
+  divContent.appendChild(myIcon);
 
 
 
@@ -46,7 +46,7 @@ function jumpScare(){
     var sound = document.getElementById("audio");
    sound.play();
    
-    bod.style.background="url(../src/jumpscare.jpg)";
+    bod.style.background="url(../src/images/jumpscare.jpg)";
    bod.style.backgroundSize='cover';
    
 }

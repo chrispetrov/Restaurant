@@ -31,12 +31,6 @@ divContent.appendChild(button2);
 divContent.appendChild(button3);
 divContent.appendChild(first);
 //
-const myIcon = new Image();
-  myIcon.src = PizzaScare;
-
-  divContent.appendChild(myIcon);
-
-
 
 
 //

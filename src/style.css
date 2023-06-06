@@ -6,6 +6,7 @@
 
 body{
     background-size: cover;
+    background-image: url(./pizza_background.jpg);
 }
 .whitetext{
     color: rgb(235, 228, 203);

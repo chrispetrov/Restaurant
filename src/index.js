@@ -2,7 +2,7 @@ import createPage from './page.js';
 import './style.css';
 import createMenu from './menu.js';
 import createInfo from './info.js';
-
+import Icon from '../src/jumpscare.jpg';
 
 
 let head=document.createElement('header');
@@ -30,12 +30,23 @@ divContent.appendChild(button1);
 divContent.appendChild(button2);
 divContent.appendChild(button3);
 divContent.appendChild(first);
+//
+const myIcon = new Image();
+myIcon.src = Icon;
+
+
+
+
+
+
+//
 
 function jumpScare(){
     bod.innerHTML='<audio id="audio" src="../src/sound.mp3" autostart="false" ></audio>';
     var sound = document.getElementById("audio");
    sound.play();
-    bod.style.background='url(../src/jumpscare.jpg)';
+   
+    bod.style.background="url(../src/jumpscare.jpg)";
    bod.style.backgroundSize='cover';
    
 }
